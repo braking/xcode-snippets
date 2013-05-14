@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>protocol</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@protocol &lt;#ProtocolName#&gt;
+-(void)&lt;#ViewController#&gt;DidCancel;
+-(void)&lt;#ViewController#&gt;DidFinishWith&lt;#Something#&gt;:(&lt;#Object#&gt; *)&lt;#object#&gt;;
+@end</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>08C02F62-5AEF-45F9-A807-52824B952345</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Simple protocol definition stub with a cancel and done method</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Protocol Definition</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
