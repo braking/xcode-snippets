@@ -3,29 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>prepare</string>
+	<string>documents</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if ([segue.identifier isEqualToString:@"&lt;#string#&gt;"]) {
-        &lt;#DestinationViewController#&gt; *destinationVC = (&lt;#DestinationViewController#&gt;*)segue.destinationViewController;
-    }
-}</string>
+	<string>NSURL *documentsDirectoryUrl = [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
+NSURL *fileUrl = [documentsDirectoryUrl URLByAppendingPathComponent:@"&lt;#FileName#&gt;"];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AC15BF9B-590A-45F9-821F-8FA6087FF80F</string>
+	<string>967A9ECE-9FE6-444D-885B-8F4429440758</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Stub for prepareForSegue with destination variable set up</string>
+	<string>Get the URL to the documents directory</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Prepare For Segue</string>
+	<string>Documents Directory</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
