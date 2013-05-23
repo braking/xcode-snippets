@@ -3,22 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>plistarray</string>
+	<string>doxvc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSString *path = [[NSBundle mainBundle] pathForResource:@"&lt;#FileName#&gt;" ofType:@"plist"];
-&lt;#NSArray *plistContentArray#&gt; = [NSArray arrayWithContentsOfFile:path];</string>
+	<string>/**
+ * @Enter
+ * &lt;#What should be passed in or initialized?#&gt;
+ *
+ * @Exit
+ * &lt;#How should it exit?#&gt;
+ *
+ */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3BDB8652-20D9-4CEF-9FC5-BC57F67EB8F9</string>
+	<string>CBFB99B2-F420-4ACE-8487-5EC76917C9AF</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Read in a plist to an NSArray</string>
+	<string>Comment stub for documenting a view controller</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Read plist</string>
+	<string>View Controller Documentation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
